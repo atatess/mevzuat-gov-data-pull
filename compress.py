@@ -1,8 +1,8 @@
 import os
 
 # Directory containing your text files
-directory = "/Users/ataates/PycharmProjects/HukukBot/mevzuat_texts"
-output_file = '/Users/ataates/Desktop/train.txt'
+directory = "/path"
+output_file = '/path.txt'
 
 with open(output_file, 'w', encoding='utf-8') as outfile:
     for filename in os.listdir(directory):
